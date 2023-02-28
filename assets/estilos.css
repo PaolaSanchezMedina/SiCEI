@@ -1,0 +1,37 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../img/4.jpg);
+    /*background: #ffff;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 0px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 83px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+
+ 
