@@ -85,35 +85,22 @@ section{
     margin-right: 3px;
     
   }
-  .forget label a{
+  .forget label {
     color: #fff;
     text-decoration: none;
   }
-  .forget label a:hover{
+  .forget label:hover{
     text-decoration: underline;
   }
+
   button{
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    background: #fff;
+    background: #5b91a7;
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 1em;
-    font-weight: 600;
-  }
-  .register{
-    font-size: .9em;
-    color: #fff;
-    text-align: center;
-    margin: 25px 0 10px;
-  }
-  .register p a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-  }
-  .register p a:hover{
-    text-decoration: underline;
+    font-weight: 400;
   }
