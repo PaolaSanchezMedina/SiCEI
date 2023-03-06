@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -10,11 +10,12 @@
 body{
     /*background-image: url(../img/4.jpg);
     background: #ffff;*/
-    background-color: white;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .divider:after,
@@ -29,6 +30,7 @@ background: #eee;
 height: calc(100% - 83px);
 }
 
+/*------------------------------Inicio---------------------------------*/
 .container{
     max-width: 1400px;
     margin: auto;
@@ -71,14 +73,6 @@ header a:hover{
     color: red;
 }
 
-.pie{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-top: 15px;
-    padding-right: 50px;
-}
-
 #hero{
     display: flex;
     justify-content: center;
@@ -87,19 +81,31 @@ header a:hover{
     flex-direction: column;
     color: white;
     font-weight: bold;
-    height: 70vh;
+    height: 77vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
     ,url(/img/fondoinicio.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
+.pie{
+    background-color: #0611BD;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
 @media (max-width:720px) {
+    /*INICIO*/
     header{
         position: fixed;
         width: 100%;
@@ -115,7 +121,6 @@ header a:hover{
         padding-bottom: 0;
         padding-right: 20px;
     }
-
     .h-custom {
     height: 100%;
     }
