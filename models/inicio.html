@@ -1,33 +1,41 @@
 <!doctype html>
-<html lang="en">
+<html lang="none">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/estilosinicio.css">
-    <link rel="icon" type="image/jpg" href="../img/logo.png">
-    <title>Sicei</title>
-
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="icon" type="image/jpg" href="/assets/img/monitor.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>SiCEI</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <p class="logo" style="font-size: 2em;">SiCEI</p>
-        <nav>
-          <a href="login.html" style="font-size: 1.25em;">Iniciar sesión</a>
-        </nav>
-      </div>
-    </header>
+    <!--=====Encabezado=====-->
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; font-size: 1.7em; font-weight: 600;">
+                <img src="/assets/img/monitor.png" alt="Logo" width="35" height="33" class="d-inline-block align-text-top">
+                SiCEI
+              </a>
+          <form class="d-flex" action="/models/login.html">
+            <button class="btn btn-light bg-primary" style="color: white;" type="submit">Iniciar sesión</button>
+          </form>
+        </div>
+      </nav>   
+    <!--=====Fin de encabezado=====-->
+    <!--=====Cuerpo=====-->
     <section id="hero">
-      <h1>Sistema de control de equipos informáticos</h1>
+        <img src="/assets/img/monitor.png" alt="Logo" width="85" height="83">
+        <h1>Sistema de control de equipos informáticos</h1>
     </section>
+    <!--=====Fin del cuerpo=====-->
+    <!--=====Pie de página=====-->
     <footer>
-      <div class="pie">
-        <p style="color: white;">&copy; SiCEI 2023</p>
+      <div class="bg-primary piein">
+        <p style="color: white">&copy; SiCEI 2023</p>
       </div>
     </footer>
+    <!--=====Fin del pie de página=====-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   </body>
 </html>
